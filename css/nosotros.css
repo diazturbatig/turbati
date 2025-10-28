@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  background-image: url("../assets/img/alpha1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: yellow;
+  zoom: 0.75;
+}
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
+
+.titulo h1 {
+  
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+
+.titulo p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5px 0 0 0;
+  color: yellow;
+  text-shadow: 1px 1px 3px black;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  background-color: #222;
+  width: 50;
+  max-width: 60%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  transition: all 0.3s;
+}
+
+.menu:hover {
+  box-shadow: 0 12px 30px rgba(255,255,0,0.5);
+}
+
+.menu a {
+  display: inline-block;
+  color: yellow;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  background-color: yellow;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+p{
+  text-align: center;
+  color: white;
+}
+/* CONTENEDOR PRINCIPAL */
+main {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  min-height: 80vh;        /* altura del bloque principal */
+  padding: 20px;
+}
+
+/* BLOQUE NOSOTROS */
+.nosotros {
+  width: 80%;
+  max-width: 900px;            /* limita ancho máximo */
+  border: 2px solid yellow;
+  border-radius: 20px;
+  padding: 40px;
+  background: rgba(0,0,0,0.7); /* fondo semi-transparente para texto */
+  display: flex;
+  flex-direction: column;      /* para que el texto quede vertical */
+  justify-content: center;
+  align-items: center;
+  text-align: center;          /* centra el texto dentro del div */
+  box-shadow: 0 0 20px rgba(255,255,0,0.3);
+  color: yellow;
+  line-height: 1.6;
+}
+
+  
